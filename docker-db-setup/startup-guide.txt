@@ -6,3 +6,5 @@ docker ps
 
 To access MySQL:
 docker exec -it vancouver-rains mysql -u testuser -p
+
+Make sure to "USE vancouver-rains-db;"
