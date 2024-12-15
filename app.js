@@ -7,8 +7,8 @@ require("./config/db"); // Initialize DB connection
 const app = express();
 
 // Routes
-app.use("api/posts", postRoutes);
-app.use("api/comments", commentRoutes);
+// app.use("api/posts", postRoutes);
+// app.use("api/comments", commentRoutes);
 
 // Server
 const PORT = process.env.PORT || 3000;
