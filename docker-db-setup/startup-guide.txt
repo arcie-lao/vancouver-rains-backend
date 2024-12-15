@@ -1,0 +1,8 @@
+To start (make sure docker is up):
+docker-compose up -d
+
+Verify if running:
+docker ps
+
+To access MySQL:
+docker exec -it vancouver-rains mysql -u testuser -p
